@@ -1,0 +1,19 @@
+.status-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  height: 25px;
+  padding: 0 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 1.4rem;
+}
+
+.status-bar__column i,
+.status-bar__column span {
+  margin: 0 1.5px;
+}

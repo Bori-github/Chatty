@@ -1,0 +1,79 @@
+.welcome-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 105px 0 80px;
+  text-align: center;
+}
+
+.welcome-header__title {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.welcome-header__title span {
+  font-family: "Secular One", sans-serif;
+  font-size: 3rem;
+}
+
+.welcome-header__text {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--horizontal-space);
+}
+
+#login-form input,
+#login-form button {
+  padding: 20px;
+  border-radius: 35px;
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.8rem;
+  transition: all 0.2s;
+}
+
+#login-form input {
+  margin-bottom: 5px;
+  border: 1px solid #fff;
+  background-color: var(--sub-color);
+}
+
+#login-form input:focus {
+  border-color: var(--point-color);
+}
+
+#login-form button {
+  border: 2px solid var(--point-color);
+  background-color: var(--point-color);
+  cursor: pointer;
+}
+
+#login-form button:hover {
+  border-color: #fff;
+}
+
+.auto-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  font-size: 1.3rem;
+}
+
+.auto-login input {
+  margin-right: 5px;
+}
+
+.find-account {
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
+  text-decoration: underline;
+}
