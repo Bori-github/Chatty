@@ -7,7 +7,7 @@
   right: 0;
   left: 0;
   padding: 10px var(--horizontal-space);
-  background-color: var(--black-rgba-color);
+  background-color: var(--main-dark-color);
 }
 
 .screen-header__title {
@@ -33,4 +33,14 @@
 
 .screen-header__icon:hover {
   color: var(--point-color);
+}
+
+.screen-header__icon:last-child {
+  position: relative;
+}
+
+.screen-header__notification-dot {
+  position: absolute;
+  top: -4px;
+  right: -6px;
 }

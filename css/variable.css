@@ -1,8 +1,9 @@
 :root {
+  --main-dark-color: #0e1621;
   --main-color: #161e29;
   --sub-color: #222e3e;
   --point-color: #7041ff;
-  --black-rgba-color: rgba(0, 0, 0, 0.6);
+  --notification-color: #e11415;
   --divider: 1px solid rgba(0, 0, 0, 0.5);
   --horizontal-space: 20px;
 }

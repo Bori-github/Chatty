@@ -6,25 +6,32 @@
 @import "components/status-bar.css";
 @import "components/screen-header.css";
 @import "components/usesr-component.css";
+@import "components/icon-row.css";
 @import "components/nav-bar.css";
+@import "components/badge.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/more.css";
 
 html,
 body {
   background-color: var(--main-color);
   color: #fff;
-  font-family: "Nunito Sans", "Secular One", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 10px;
 }
 
 .main-screen {
-  padding: 73px var(--horizontal-space) 0;
+  padding: 73px var(--horizontal-space) 62.25px;
   -ms-overflow-style: none;
 }
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+.chatty-font {
+  font-family: "Secular One", sans-serif;
 }
