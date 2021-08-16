@@ -1,0 +1,27 @@
+.alt-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 25px;
+  right: 0;
+  left: 0;
+  padding: 10px var(--horizontal-space);
+  background-color: var(--main-dark-color);
+  font-size: 2rem;
+}
+
+.alt-header__column {
+  display: flex;
+  align-items: center;
+}
+
+.alt-header__title {
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.alt-header__column:last-child i {
+  margin-left: 20px;
+  cursor: pointer;
+}

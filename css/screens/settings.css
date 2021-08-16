@@ -1,0 +1,34 @@
+.settings-screen {
+  padding-bottom: 0 !important;
+}
+
+.settings-list:nth-child(1) ~ .settings-list {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: var(--divider);
+}
+
+.settings__setting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  font-size: 1.6rem;
+}
+
+.settings__setting__column {
+  display: flex;
+}
+
+.settings__setting__column:last-child {
+  font-size: 1.4rem;
+  opacity: 0.5;
+}
+
+.settings__setting__column span {
+  margin-left: 20px;
+}
+
+.settings__setting__column span:last-child {
+  margin-left: 10px;
+}
