@@ -1,0 +1,78 @@
+.wallet {
+  margin: 0 -20px;
+  padding: 0 var(--horizontal-space);
+  background-color: var(--point-color);
+}
+
+.wallet__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 1.5rem;
+}
+
+.wallet__row__title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.wallet__row__title i {
+  margin-left: 5px;
+}
+
+.wallet__row__icon {
+  margin-left: 10px;
+}
+
+.wallet__banner {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: var(--main-color);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.chatty-now__row {
+  width: 100%;
+  margin: 10px 0;
+
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: #78dec7;
+  color: #333;
+}
+
+.chatty-now__row:last-child {
+  background-color: #fff5de;
+}
+
+.chatty-now__link {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 30px 60px;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.chatty-now__ad {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.chatty-now__link i {
+  align-self: flex-end;
+  font-size: 6rem;
+}
