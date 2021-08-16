@@ -6,6 +6,7 @@
   top: 25px;
   right: 0;
   left: 0;
+  z-index: 10;
   padding: 10px var(--horizontal-space);
   background-color: var(--main-dark-color);
   font-size: 2rem;
