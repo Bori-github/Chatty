@@ -1,0 +1,17 @@
+.multi-profile {
+  padding-top: 20px;
+  border-top: var(--divider);
+  border-bottom: var(--divider);
+}
+
+.multi-profile__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4rem;
+}
+
+.multi-profile .usesr-component__title {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
