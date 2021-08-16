@@ -110,7 +110,6 @@
 
 .reply__column:first-child {
   width: 7%;
-  text-align: center;
   transition: all 0.2s;
 }
 
