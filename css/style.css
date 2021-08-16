@@ -21,6 +21,7 @@
 
 html,
 body {
+  min-width: 320px;
   background-color: var(--main-color);
   color: #fff;
   font-family: "Nunito Sans", sans-serif;
@@ -38,4 +39,32 @@ body {
 
 .chatty-font {
   font-family: "Secular One", sans-serif;
+}
+
+#mobile-size {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #mobile-size {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    background-color: var(--main-dark-color);
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 700;
+  }
+
+  #mobile-size .mobile-size__emoticon {
+    font-size: 15rem;
+    margin-bottom: 50px;
+  }
 }
