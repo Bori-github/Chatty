@@ -29,6 +29,6 @@
   margin-left: 20px;
 }
 
-.settings__setting__column span:last-child {
+.settings__setting__column span.badge {
   margin-left: 10px;
 }
