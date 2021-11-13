@@ -109,7 +109,8 @@
 }
 
 .reply__column:first-child {
-  width: 7%;
+  /* width: 7%; */
+  margin-right: 10px;
   transition: all 0.2s;
 }
 
@@ -118,7 +119,7 @@
 }
 
 .reply__column:last-child {
-  width: 93%;
+  width: calc(100% - 33px);
 }
 
 .reply__column:last-child input {
@@ -152,6 +153,7 @@
 
 .reply:focus-within .reply__column:first-child {
   width: 0;
+  margin: 0;
   opacity: 0;
 }
 
